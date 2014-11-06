@@ -1,5 +1,6 @@
 package ch.codecraft.playground.gradle;
 
+import java.util.Arrays;
 import java.util.stream.Stream;
 
 /**
@@ -7,7 +8,7 @@ import java.util.stream.Stream;
  */
 public class MyJavaMain {
     public static void main(String[] args) {
-        System.out.println("java the main args=" + args);
+        System.out.println("java the main args=" + Arrays.asList(args));
         MyLib.doStuff();
         Stream.of("java", "the", "main").forEach(System.out::println);
 

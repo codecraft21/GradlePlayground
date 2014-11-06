@@ -9,4 +9,8 @@ object MyLib {
     println("doing stuff")
   }
 
+  def getStuff: String = {
+    "Stuff"
+  }
+
 }
