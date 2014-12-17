@@ -3,8 +3,5 @@
   <component name="ScalaCompilerConfiguration">
     <option name="deprecationWarnings" value="true" />
     <option name="uncheckedWarnings" value="true" />
-    <parameters>
-      <parameter value="-target:jvm-1.8" />
-    </parameters>
   </component>
 </project>
